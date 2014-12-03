@@ -37,14 +37,14 @@ settings[footer_credits]   = 1
 settings[slideshow_display]  = 1
 settings[show_front_content] = 1
 settings[breadcrumbs]  = 1
-settings[slide1_desc]  = "What We Do"
+settings[slide1_desc]  = "What We Do" 
 settings[slide2_desc]  = "Who We Are"
 settings[slide3_desc]  = "Our Service"
 settings[slide4_desc]  = "Eyes Bus"
-settings[slide1_url]  = "node/1"
-settings[slide2_url]  = "node/2"
-settings[slide3_url]  = "node/3"
-settings[slide4_url]  = "node/4"
+settings[slide1_url]  = "campus_news"
+settings[slide2_url]  = "notice"
+settings[slide3_url]  = "classes_show"
+settings[slide4_url]  = "social_practice"
 
 ; Information added by Drupal.org packaging script on 2014-03-21
 version = "7.x-1.11"

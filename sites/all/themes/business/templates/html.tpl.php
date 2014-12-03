@@ -3,7 +3,7 @@
 <head>
 
 <?php print $head; ?>
-<title><?php print $head_title; ?></title>
+<title>山东大学时空视点传媒</title>
 <?php print $styles; ?>
 <?php print $scripts; ?>
 <!--[if lt IE 9]><script src="<?php print base_path() . drupal_get_path('theme', 'business') . '/js/html5.js'; ?>"></script><![endif]-->

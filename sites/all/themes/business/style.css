@@ -1762,7 +1762,7 @@ margin-right:20px;
 line-height: 22px;
 }
 #wrap #main-middle #post-content .page-title{
-	visibility: hidden;
+	display:none;
 	height:0px;
 }
 #wrap #main-middle .content img{

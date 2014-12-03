@@ -220,6 +220,7 @@
 
   <header id="header" class="clearfix" role="banner">
     <div class ="head">
+
 		<div class="header_top">
 			   <div id="logo" >
 				<div class = "img" ></div>
@@ -253,16 +254,16 @@
     $url1 = check_plain(theme_get_setting('slide1_url','business'));
     $url2 = check_plain(theme_get_setting('slide2_url','business'));
     $url3 = check_plain(theme_get_setting('slide3_url','business'));
-	$url4 = check_plain(theme_get_setting('slide4_url','business'));
+	$url4 = check_plain(theme_get_setting('slide4_url','business')); 
     ?>
       <div id="slider">
         <div class="main_view">
             <div class="window"  align="center">
                 <div class="image_reel">
-                    <a href="<?php print url($url1); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-1.jpg'; ?>"></a>
-                    <a href="<?php print url($url2); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-2.jpg'; ?>"></a>
-                    <a href="<?php print url($url3); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-3.jpg'; ?>"></a>
-					 <a href="<?php print url($url4); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-4.jpg'; ?>"></a>
+                    <a href="<?php print base_path()?>?q=campus_news"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-1.jpg'; ?>"></a>
+                    <a href="<?php print base_path() ?>?q=notice"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-2.jpg'; ?>"></a>
+                    <a href="<?php print base_path() ?>?q=classes_show"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-3.jpg'; ?>"></a>
+					<a href="<?php print base_path() ?>?q=social_practice"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-4.jpg'; ?>"></a>
 				</div>
             </div>
         
@@ -407,7 +408,7 @@
 								<li class="fl">社会实践</li>
 								<li class="fl">科技创新</li>
 							</ul>
-							<a href="#" class="fr more"></a>
+							<a href="<?php print base_path()?>?q=emp_info" class="fr more"></a>
 							<div class="cl"></div>
 						</h2>
 				  <div class="footer-box3"><?php print render($page['footer_third']); ?></div>
@@ -515,7 +516,7 @@
 							<li class="fl">心理健康</li>
 							<li class="fl">在线专题</li>
 						</ul>
-						<a href="#" class="fr more"></a>
+						<a href="<?php print base_path()?>?q=party_construction" class="fr more"></a>
 						<div class="cl"></div>
 					</h2>
 				  <div class="footer-box6"><?php print render($page['footer_right']); ?></div>
@@ -537,7 +538,7 @@
   <div class="clear"></div>
   <div id="copyright">
     <?php if ($footer_copyright): ?>
-		Copyright 2014 山东大学软件学院时空视点传媒&nbsp;|&nbsp; 
+		Copyright © 2015 山东大学软件学院时空视点传媒&nbsp;|&nbsp; 
 		<a href="#">关于我们</a>&nbsp;|&nbsp;  <a href="#">联系我们</a>&nbsp;|&nbsp; 地址：济南市舜华路1500号山东大学软件园校区|&nbsp;
 		<a href="<?php print $base_path;?>?q=user">管理员登陆</a>
     <?php endif; ?>
