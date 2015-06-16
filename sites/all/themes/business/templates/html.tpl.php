@@ -12,5 +12,10 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+  <script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F770e2ddd0ff85e8b5a265f7b9545364d' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+
 </body>
 </html>

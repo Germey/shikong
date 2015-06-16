@@ -260,10 +260,10 @@
         <div class="main_view">
             <div class="window"  align="center">
                 <div class="image_reel">
-                    <a href="<?php print base_path()?>?q=campus_news"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-1.jpg'; ?>"></a>
-                    <a href="<?php print base_path() ?>?q=notice"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-2.jpg'; ?>"></a>
-                    <a href="<?php print base_path() ?>?q=classes_show"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-3.jpg'; ?>"></a>
-					<a href="<?php print base_path() ?>?q=social_practice"><img src="<?php print base_path() . drupal_get_path('theme', 'business') . '/images/slide-image-4.jpg'; ?>"></a>
+                    <a href="<?php print base_path()?>?q=campus_news"><img src="<?php print base_path() .'sites/all/sites/default/files/images/slide-image/slide-image-1.jpg'; ?>"></a>
+                    <a href="<?php print base_path() ?>?q=notice"><img src="<?php print base_path() .  'sites/all/sites/default/files/images/slide-image/slide-image-2.jpg'; ?>"></a>
+                    <a href="<?php print base_path() ?>?q=classes_show"><img src="<?php print base_path() .  'sites/all/sites/default/files/images/slide-image/slide-image-3.jpg'; ?>"></a>
+					<a href="<?php print base_path() ?>?q=social_practice"><img src="<?php print base_path() .  'sites/all/sites/default/files/images/slide-image/slide-image-4.jpg'; ?>"></a>
 				</div>
             </div>
         
@@ -354,11 +354,11 @@
 					</style>
 					<div class="container1" id="idContainer2">
 						<ul id="idSlider2">
-							<li><a href=""> <img src="sites/default/files/images/1.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/2.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/3.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/4.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/5.jpg"  /> </a></li>
+							<li> <img src="sites/default/files/images/1.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/2.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/3.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/4.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/5.jpg"  /> </li>
 						</ul>
 						<ul class="num1" id="idNum1">
 						</ul>
@@ -464,11 +464,11 @@
 					</style>
 					<div class="container2" id="idContainer5">
 						<ul id="idSlider5">
-							<li><a href=""> <img src="sites/default/files/images/6.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/7.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/8.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/9.jpg"  /> </a></li>
-							<li><a href=""> <img src="sites/default/files/images/10.jpg"  /> </a></li>
+							<li> <img src="sites/default/files/images/6.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/7.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/8.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/9.jpg"  /> </li>
+							<li> <img src="sites/default/files/images/10.jpg"  /> </li>
 						</ul>
 						<ul class="num2" id="idNum2">
 						</ul>
